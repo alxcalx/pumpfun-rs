@@ -13,7 +13,7 @@ readme = "README.md"
 crate-type = ["cdylib", "rlib"]
 
 [dependencies]
-anchor-client = { version = "0.30.1", features = ["async"] }
+anchor-client = { version = "0.31.0", features = ["async"] }
 anchor-spl = "0.30.1"
 borsh = { version = "1.5.3", features = ["derive"] }
 isahc = "1.7.2"
